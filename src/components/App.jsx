@@ -4,8 +4,6 @@ import { ContactList } from './ContactList/ContactList';
 import { ContactFilter } from './ContactFilter/ContactFilter';
 import css from './App.module.css';
 
-const LOCAL_STORAGE_CONTACTS = 'contacts';
-
 export const App = () => {
   return (
     <div className={css['container']}>
