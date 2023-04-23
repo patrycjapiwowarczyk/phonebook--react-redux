@@ -1,0 +1,17 @@
+.filter{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter__container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filter__input{
+    height: 20px;
+    padding: 5px 5px 5px 20px;
+    width: 200px;
+}
+

@@ -1,0 +1,23 @@
+.contact-list__item{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 10px;
+    justify-content:space-between;
+    margin-left: -10px;
+    width: 100%;
+    border: 1px rgba(121, 121, 121, 0.377) solid;
+    margin-bottom: 10px;
+    background-color: rgba(121, 121, 121, 0.137);
+    align-items: center;
+}
+
+.contact-list__button{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(231, 10, 10, 0.411);
+    border: 1px solid black;
+}

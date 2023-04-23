@@ -1,0 +1,26 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-form__item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.contact-form__input{
+    height: 20px;
+    width: 200px;
+    padding: 5px 5px 5px 20px;
+}
+
+.contact-form__button{
+    padding: 3px 5px 3px 5px;
+    width: 100px;
+    height: 30px;
+    border: 1px rgba(121, 121, 121, 0.377) solid;
+    background-color: rgba(121, 121, 121, 0.137);
+}
